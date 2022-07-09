@@ -1,0 +1,25 @@
+body, html {
+    margin: 0%;
+    background-color: lightblue;
+    height: 100vh;
+}
+
+.layout {
+    display: grid;
+    grid-template-rows: 0.2fr 3fr 0.4fr;
+    height: 100%;
+}
+
+header {
+    background-color: coral;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+
+header > div {
+    border-bottom: solid 0.2px black;
+}
+
+.rightSide {
+    grid-area: ;
+}
